@@ -9,8 +9,8 @@ The ALU is a fundamental digital building block capable of performing arithmetic
 
 ### Project Activities
 The project involved two parallel activities:
-* **RTL Design (`ALU_design_Aayush_6873`):** Writing a synthesizable Verilog implementation of the ALU specification.
-* **Functional Verification (`tb_ALU_Aayush_6873`):** Developing a directed testbench with an embedded reference model to verify an externally provided DUT (`design_tamil`) against the specification.
+* **RTL Design (`alu`):** Writing a synthesizable Verilog implementation of the ALU specification.
+* **Functional Verification (`test_alu`):** Developing a directed testbench with an embedded reference model to verify an externally provided DUT (`design_tamil`) against the specification.
 
 ### Design Features
 The design supports a wide range of operations, including multi-cycle multiplication, signed arithmetic, bitwise operations, shifts, and barrel rotations:
